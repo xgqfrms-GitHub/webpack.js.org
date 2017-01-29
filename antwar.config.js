@@ -37,7 +37,7 @@ module.exports = {
         );
       }
     ),
-
+/*
     'get-started': section(
       'Get-Started',
       function() {
@@ -172,6 +172,7 @@ module.exports = {
         return require('./components/organization/organization.jsx').default
       }
     }
+*/
   }
 };
 

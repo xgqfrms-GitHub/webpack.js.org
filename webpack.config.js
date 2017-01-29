@@ -76,11 +76,12 @@ const interactiveConfig = {
     }
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
+    new webpack.NamedModulesPlugin()
+    /*new webpack.optimize.UglifyJsPlugin({
       compress: {
         warnings: false
       }
-    })
+    })*/
   ]
 };
 
