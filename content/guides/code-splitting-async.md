@@ -7,6 +7,7 @@ contributors:
   - pksjce
   - rahulcs
   - johnstew
+  - xgqfrms
 ---
 
 This guide documents how to split your bundle into chunks which can be downloaded asynchronously at a later time. For instance, this allows to serve a minimal bootstrap bundle first and to asynchronously additional features later.
